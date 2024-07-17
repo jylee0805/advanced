@@ -1,11 +1,799 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Advanced</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Google Developers</title>
+    <link rel="stylesheet" href="all.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+  </head>
+  <body>
+    <div class="wrap">
+      <header class="header">
+        <h1>
+          <a href="https://developers.google.com/?hl=zh-tw" class="header_logo">Google for Developers</a>
+        </h1>
+
+        <nav>
+          <ul class="nav">
+            <li class="nav_item nav_more nav_product">
+              <a href="https://developers.google.com/products?hl=zh-tw" class="nav_link">產品</a>
+              <button class="nav_dropDown"><span class="material-symbols-outlined"> arrow_drop_down </span></button>
+              <div class="nav_moreBox">
+                <div class="nav_moreItem">
+                  <h4>平台與作業系統</h4>
+                  <ul class="nav_moreList">
+                    <li><a href="https://developer.android.com/?hl=zh-tw">Android</a></li>
+                    <li><a href="https://ai.google.dev/?hl=zh-tw">Google AI</a></li>
+                    <li><a href="https://developer.chrome.com/?hl=zh-tw">Chrome</a></li>
+                    <li><a href="https://cloud.google.com/developers?hl=zh-tw">Google Cloud</a></li>
+                    <li><a href="https://firebase.google.com/?hl=zh-tw">Firebase</a></li>
+                  </ul>
+                </div>
+                <div class="nav_moreItem">
+                  <h4>架構、IDE 和 SDK</h4>
+                  <ul class="nav_moreList">
+                    <li><a href="https://developer.android.com/jetpack?hl=zh-tw">Jetpack Compose</a></li>
+                    <li><a href="https://developer.android.com/studio?hl=zh-tw">Android Studio</a></li>
+                    <li><a href="https://flutter.dev/">Flutter</a></li>
+                    <li><a href="https://idx.dev/">Project IDX</a></li>
+                    <li><a href="https://makersuite.google.com/?hl=zh-tw">Google AI Studio</a></li>
+                  </ul>
+                </div>
+                <div class="nav_moreItem">
+                  <h4>服務與整合項目</h4>
+                  <ul class="nav_moreList">
+                    <li><a href="https://ai.google.dev/gemini-api/docs/api-overview?hl=zh-tw">Gemini API</a></li>
+                    <li><a href="https://cloud.google.com/vertex-ai?hl=zh-tw">Vertex AI</a></li>
+                    <li><a href="https://developers.google.com/identity?hl=zh-tw&utm_source=devtools">身分</a></li>
+                    <li><a href="https://developers.google.com/pay?hl=zh-tw&utm_source=devtools">Google Pay API</a></li>
+                    <li><a href="https://developers.google.com/workspace?hl=zh-tw&utm_source=devtools">Google Workspace</a></li>
+                  </ul>
+                </div>
+                <div class="nav_moreItem">
+                  <h4>成長與營利</h4>
+                  <ul class="nav_moreList">
+                    <li><a href="https://developer.android.com/distribute/?hl=zh-tw">Google Play</a></li>
+                    <li><a href="https://developers.google.com/admob?hl=zh-tw&utm_source=devtools">Google AdMob</a></li>
+                    <li><a href="https://developers.google.com/google-ads?hl=zh-tw&utm_source=devtools">Google Ads</a></li>
+                    <li><a href="https://developer.chrome.com/docs/extensions?hl=zh-tw&utm_source=devtools">Chrome 擴充功能</a></li>
+                    <li><a href="https://developers.google.com/search?hl=zh-tw&utm_source=devtools">Google 搜尋中心</a></li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li class="nav_item">
+              <a href="https://developers.google.com/solutions/catalog?hl=zh-tw" class="nav_link">解決方案</a>
+            </li>
+            <li class="nav_item">
+              <a href="https://developers.google.com/events?hl=zh-tw" class="nav_link">事件</a>
+            </li>
+            <li class="nav_item">
+              <a href="https://developers.google.com/learn?hl=zh-tw" class="nav_link">瞭解詳情</a>
+            </li>
+            <li class="nav_item nav_more nav_community">
+              <a href="https://developers.google.com/community?hl=zh-tw" class="nav_link">Community</a>
+              <button class="nav_dropDown"><span class="material-symbols-outlined"> arrow_drop_down </span></button>
+              <div class="nav_moreBox nav_moreBox-community">
+                <div class="nav_moreItem">
+                  <h4>群組</h4>
+                  <ul class="nav_moreList">
+                    <li><a href="https://developers.google.com/community/gdg?hl=zh-tw&utm_source=devtools"> Google Developer Group </a></li>
+                    <li><a href="https://developers.google.com/community/gdsc?hl=zh-tw&utm_source=devtools"> Google Developer 學生俱樂部 </a></li>
+                    <li><a href="https://developers.google.com/womentechmakers?hl=zh-tw&utm_source=devtools"> Women Techmakers </a></li>
+                    <li><a href="https://developers.google.com/community/experts?hl=zh-tw&utm_source=devtools"> Google Developers 專家 </a></li>
+                    <li><a href="https://www.techequitycollective.com/"> 科技業平權共同體計畫 </a></li>
+                  </ul>
+                </div>
+                <div class="nav_moreItem">
+                  <h4>程式</h4>
+                  <ul class="nav_moreList">
+                    <li><a href="https://developers.google.com/community/accelerators?hl=zh-tw&utm_source=devtools">加速器</a></li>
+                    <li><a href="https://developers.google.com/community/gdsc-solution-challenge?hl=zh-tw&utm_source=devtools">解決方案挑戰賽</a></li>
+                    <li><a href="https://developers.google.com/community/devfest?hl=zh-tw&utm_source=devtools">DevFest</a></li>
+                  </ul>
+                </div>
+                <div class="nav_moreItem">
+                  <h4>限時動態</h4>
+                  <ul class="nav_moreList">
+                    <li><a href="https://developers.google.com/community/stories?hl=zh-tw&utm_source=devtools"> 所有案例 </a></li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li class="nav_item">
+              <a href="https://developers.google.com/profile/u/me/dashboard?hl=zh-tw" class="nav_link">開發人員計畫</a>
+            </li>
+            <li class="nav_item">
+              <a href="https://developers.googleblog.com/zh-hans/" class="nav_link">網誌</a>
+            </li>
+            <li class="nav_item">
+              <a href="#" class="nav_link">更多選項</a>
+            </li>
+          </ul>
+
+          <form action="#">
+            <div class="header_searchBox">
+              <span class="material-symbols-outlined"> search </span>
+              <input type="text" name="search" placeholder="搜尋結果" class="header_search" />
+            </div>
+          </form>
+        </nav>
+        <div class="header_function">
+          <div class="langue">
+            <button class="langue_select">
+              <span class="material-symbols-outlined"> language </span>
+              中文 - 繁體
+              <span class="material-symbols-outlined down"> arrow_drop_down </span>
+            </button>
+            <ul class="langue_opt">
+              <li><a href="https://developers.google.com/">English</a></li>
+              <li><a href="https://developers.google.com/?hl=de">Deutsch</a></li>
+              <li><a href="https://developers.google.com/?hl=es">Español</a></li>
+              <li><a href="https://developers.google.com/?hl=es-419">Español – América Latina</a></li>
+              <li><a href="https://developers.google.com/?hl=fr">Français</a></li>
+              <li><a href="https://developers.google.com/?hl=id">Indonesia</a></li>
+              <li><a href="https://developers.google.com/?hl=it">Italiano</a></li>
+              <li><a href="https://developers.google.com/?hl=pl">Polski</a></li>
+              <li><a href="https://developers.google.com/?hl=pt-br">Português – Brasil</a></li>
+              <li><a href="https://developers.google.com/?hl=vi">Tiếng Việt</a></li>
+              <li><a href="https://developers.google.com/?hl=tr">Türkçe</a></li>
+              <li><a href="https://developers.google.com/?hl=ru">Русский</a></li>
+              <li><a href="https://developers.google.com/?hl=he">עברית</a></li>
+              <li><a href="https://developers.google.com/?hl=ar">العربيّة</a></li>
+              <li><a href="https://developers.google.com/?hl=fa">فارسی</a></li>
+              <li><a href="https://developers.google.com/?hl=hi">हिंदी</a></li>
+              <li><a href="https://developers.google.com/?hl=bn">বাংলা</a></li>
+              <li><a href="https://developers.google.com/?hl=th">ภาษาไทย</a></li>
+              <li><a href="https://developers.google.com/?hl=zh-cn">中文 – 简体</a></li>
+              <li><a href="https://developers.google.com/?hl=zh-tw">中文 – 繁體</a></li>
+              <li><a href="https://developers.google.com/?hl=ja">日本語</a></li>
+              <li><a href="https://developers.google.com/?hl=ko">한국어</a></li>
+            </ul>
+          </div>
+          <button class="btn-circle">
+            <span class="material-symbols-outlined"> more_vert </span>
+          </button>
+          <button class="btn-circle photo"></button>
+        </div>
+      </header>
+
+      <div class="banner banner-api">
+        <p class="banner-api_message">
+          Build with Gemini, our largest and most capable AI model.
+          <a href="https://aistudio.google.com/app/prompts/new_chat?utm_source=gfd&utm_medium=referral&utm_campaign=top_bar&hl=zh-tw" class="banner-api_link">Get an API key.</a>
+        </p>
+      </div>
+
+      <div class="banner banner-translate">
+        <div class="banner-translate_message">
+          <img src="https://developers.google.com/_static/images/translated.svg?hl=zh-tw" alt="translated by Google" class="banner-translate_img" />
+          <p class="banner-translate_text">
+            本頁面由<a href="https://cloud.google.com/translate/?hl=zh-tw" class="banner-translate_link"> Cloud Translation API</a>
+            翻譯而成。
+          </p>
+        </div>
+        <button class="btn-translate">Switch to English</button>
+      </div>
+
+      <main>
+        <section class="recap container">
+          <!--https://developers.google.com/homepage-assets/images/io-promo-l4.png-->
+          <div class="recap_content">
+            <h2 class="recap_title">聰明智慧<br />加速運送</h2>
+            <p class="recap_text">透過開放式整合式解決方案激發創造力並簡化工作流程。</p>
+          </div>
+          <div class="recap_link">
+            <a href="https://blog.google/technology/developers/google-gemma-2/?utm_source=website&%3Butm_medium=referral&%3Butm_campaign=gfd-hero-june&%3Butm_content=gemma2&hl=zh-tw" class="recap_imgLink"
+              ><img src="https://developers.google.com/static/site-assets/images/news/gemma2.png?hl=zh-tw" alt="Gemma 2" class="recap_img"
+            /></a>
+            <h3 class="recap_subtitle"><a href="https://blog.google/technology/developers/google-gemma-2/?utm_source=website&%3Butm_medium=referral&%3Butm_campaign=gfd-hero-june&%3Butm_content=gemma2&hl=zh-tw" class="recap_subtitleLink">Gemma 2 現已於全球推出</a></h3>
+          </div>
+        </section>
+
+        <section class="suggestion container">
+          <div class="suggestion_select">
+            <div class="suggestion_header">
+              <p class="suggestion_title">
+                選取要篩選的興趣類別
+                <span class="material-symbols-outlined"> info </span>
+              </p>
+              <a href="https://developers.google.com/profile/u/me/new?hl=zh-tw&continue=https%3A%2F%2Fdevelopers.google.com%2F%3Fhl%3Dzh-tw" class="suggestion_account">
+                <span class="material-symbols-outlined"> person </span>
+                建立帳戶</a
+              >
+            </div>
+            <form action="#" class="suggestion_form">
+              <div class="suggestion_category">
+                <input type="checkbox" name="" class="suggestion_criteria" id="category_payment" />
+                <label for="category_payment">付款</label>
+              </div>
+              <div class="suggestion_category">
+                <input type="checkbox" name="" class="suggestion_criteria" id="category_payment" />
+                <label for="category_payment">行動</label>
+              </div>
+              <div class="suggestion_category">
+                <input type="checkbox" name="" class="suggestion_criteria" id="category_payment" />
+                <label for="category_payment">位置/地圖</label>
+              </div>
+              <div class="suggestion_category">
+                <input type="checkbox" name="iot" class="suggestion_criteria" id="category_payment" />
+                <label for="category_payment">物聯網(IoT)</label>
+              </div>
+              <div class="suggestion_category">
+                <input type="checkbox" name="design" class="suggestion_criteria" id="category_payment" />
+                <label for="category_payment">設計</label>
+              </div>
+              <div class="suggestion_category">
+                <input type="checkbox" name="smartHome" class="suggestion_criteria" id="category_payment" />
+                <label for="category_payment">智慧型住宅生態系統</label>
+              </div>
+              <div class="suggestion_category">
+                <input type="checkbox" name="openSource" class="suggestion_criteria" id="category_payment" />
+                <label for="category_payment">開放原始碼</label>
+              </div>
+              <div class="suggestion_category">
+                <input type="checkbox" name="search" class="suggestion_criteria" id="category_payment" />
+                <label for="category_payment">搜尋</label>
+              </div>
+              <div class="suggestion_category">
+                <input type="checkbox" name="internet" class="suggestion_criteria" id="category_payment" />
+                <label for="category_payment">網路</label>
+              </div>
+              <div class="suggestion_category">
+                <input type="checkbox" name="ads" class="suggestion_criteria" id="category_payment" />
+                <label for="category_payment">廣告</label>
+              </div>
+              <div class="suggestion_category">
+                <input type="checkbox" name="machine" class="suggestion_criteria" id="category_payment" />
+                <label for="category_payment">AI 與機器學習</label>
+              </div>
+              <div class="suggestion_category">
+                <input type="checkbox" name="Android" class="suggestion_criteria" id="category_payment" />
+                <label for="category_payment">Android</label>
+              </div>
+              <div class="suggestion_category">
+                <input type="checkbox" name="AR" class="suggestion_criteria" id="category_payment" />
+                <label for="category_payment">AR/VR</label>
+              </div>
+              <div class="suggestion_category">
+                <input type="checkbox" name="C" class="suggestion_criteria" id="category_payment" />
+                <label for="category_payment">C</label>
+              </div>
+              <div class="suggestion_category">
+                <input type="checkbox" name="C#" class="suggestion_criteria" id="category_payment" />
+                <label for="category_payment">C#</label>
+              </div>
+            </form>
+          </div>
+          <h2 class="suggestion_contentTitle">熱門更新內容</h2>
+          <div class="suggestion_content">
+            <div class="card suggestion_card">
+              <div class="suggestion_card_content">
+                <h3 class="card_title">
+                  <a href="https://cloud.google.com/docs/get-started" class="card_link">開始使用 Google Cloud</a>
+                </h3>
+                <p class="card_text">探索快速入門導覽課程、互動式教學課程、技術說明文件、影片和架構圖，協助您開始使用 Google Cloud。</p>
+              </div>
+              <figure>
+                <img src="https://www.gstatic.com/devrel-devsite/prod/vc5df62aff689c916c31b2ac1e49a7e8c5ecada1bb13dcdd68aaefb1e1e9b9ec0/cloud/images/icon.svg" alt="Google Cloud" class="card_img" />
+              </figure>
+            </div>
+            <div class="card suggestion_card">
+              <div class="suggestion_card_content">
+                <h3 class="card_title">
+                  <a href="https://developer.android.com/guide?hl=zh-tw" class="card_link">瞭解 Android 開發作業的基礎知識</a>
+                </h3>
+                <p class="card_text">Android 開發人員指南說明如何使用 Android 架構和其他程式庫中的 API 建構 Android 應用程式。</p>
+              </div>
+              <figure>
+                <img src="https://developers.google.com/static/devcenter/icons/icon-android.svg?hl=zh-tw" alt="Android" class="card_img" />
+              </figure>
+            </div>
+            <div class="card suggestion_card">
+              <div class="suggestion_card_content">
+                <h3 class="card_title">
+                  <a href="https://developers.google.com/search/docs/fundamentals/seo-starter-guide?hl=zh-tw" class="card_link">瞭解 Google 搜尋的基本概念</a>
+                </h3>
+                <p class="card_text">建議您學習一些基本概念，瞭解如何管理網站在搜尋引擎中的呈現方式。只要多掌握一些相關知識，就能讓使用者更容易找到你的網站。</p>
+              </div>
+              <figure>
+                <img src="https://developers.google.com/static/search/images/google-search-central-logo_96_72.png?hl=zh-tw" alt="Google Search" class="card_img" />
+              </figure>
+            </div>
+            <div class="card suggestion_card">
+              <div class="suggestion_card_content">
+                <h3 class="card_title">
+                  <a href="https://developers.google.com/maps?hl=zh-tw" class="card_link">Google 地圖平台</a>
+                </h3>
+                <p class="card_text">利用 Google 地圖平台提供的最新地圖介面集、路徑介面集和地點介面集功能，打造真實世界的即時體驗。</p>
+              </div>
+              <figure>
+                <img src="https://developers.google.com/static/maps/images/maps-icon.svg?hl=zh-tw" alt="Google Map" class="card_img" />
+              </figure>
+            </div>
+            <div class="card suggestion_card">
+              <div class="suggestion_card_content">
+                <h3 class="card_title">
+                  <a href="https://codelabs.developers.google.com/codelabs/flutter-codelab-first#0" class="card_link">編寫第一個 Flutter 應用程式</a>
+                </h3>
+                <p class="card_text">您可以使用 Google 的 UI 工具包 Flutter 建立簡單的行動應用程式，這樣就能透過單一程式碼集，建構精美且以原生方式編譯的行動裝置、網頁和電腦應用程式。</p>
+              </div>
+              <figure>
+                <img src="https://developers.google.com/static/devcenter/icons/icon-codelabs.svg?hl=zh-tw" alt="Google UI" class="card_img" />
+              </figure>
+            </div>
+            <div class="card suggestion_card">
+              <div class="suggestion_card_content">
+                <h3 class="card_title">
+                  <a href="https://firebase.google.com/docs/guides?hl=zh-tw" class="card_link">瞭解 Firebase 的基本概念</a>
+                </h3>
+                <p class="card_text">開始使用 Firebase 專案、探索最佳做法，並掌握基礎以外的其他概念。</p>
+              </div>
+              <figure>
+                <img src="https://developers.google.com/static/devcenter/icons/icon-firebase.svg?hl=zh-tw" alt="Firebase" class="card_img" />
+              </figure>
+            </div>
+            <div class="card suggestion_card">
+              <div class="suggestion_card_content">
+                <h3 class="card_title">
+                  <a href="https://cloud.google.com/products?hl=zh-tw" class="card_link">Google Cloud 產品</a>
+                </h3>
+                <p class="card_text">瀏覽超過 100 項 Google Cloud 產品。新客戶可獲得 $300 美元的免費抵免額，方便客戶開始執行工作負載或進行評估作業。</p>
+              </div>
+              <figure>
+                <img src="https://developers.google.com/static/devcenter/icons/icon-cloud.svg?hl=zh-tw" alt="Google Cloud" class="card_img" />
+              </figure>
+            </div>
+            <div class="card suggestion_card">
+              <div class="suggestion_card_content">
+                <h3 class="card_title">
+                  <a href="https://developers.google.com/identity/protocols/oauth2/web-server?hl=zh-tw" class="card_link">使用 OAuth 2.0</a>
+                </h3>
+                <p class="card_text">瞭解網路伺服器應用程式如何使用 Google API 用戶端程式庫或 Google OAuth 2.0 端點來實作 OAuth 2.0 授權以存取 Google API。</p>
+              </div>
+              <figure>
+                <img src="https://developers.google.com/static/devcenter/icons/icon-developers.svg?hl=zh-tw" alt="Google API " class="card_img" />
+              </figure>
+            </div>
+            <div class="card suggestion_card">
+              <div class="suggestion_card_content">
+                <h3 class="card_title">
+                  <a href="https://developer.android.com/kotlin/androidbasics?hl=zh-tw" class="card_link">Android Kotlin 基本概念</a>
+                </h3>
+                <p class="card_text">本課程旨在向沒有程式設計經驗的使用者說明，如何建構簡單的 Android 應用程式。瞭解程式設計的基礎知識和 Kotlin 的基本概念。</p>
+              </div>
+              <figure>
+                <img src="https://developers.google.com/static/devcenter/icons/icon-android.svg?hl=zh-tw" alt="Android Kotlin" class="card_img" />
+              </figure>
+            </div>
+            <div class="card suggestion_card">
+              <div class="suggestion_card_content">
+                <h3 class="card_title">
+                  <a href="https://www.tensorflow.org/tutorials?hl=zh-tw" class="card_link">開始使用 TensorFlow</a>
+                </h3>
+                <p class="card_text">TensorFlow 是一個端對端開放原始碼平台，能讓新手和專家輕鬆建立機器學習模型。</p>
+              </div>
+              <figure>
+                <img src="https://developers.google.com/static/devcenter/icons/icon-tensorflow.svg?hl=zh-tw" alt="TensorFlow" class="card_img" />
+              </figure>
+            </div>
+            <div class="card suggestion_card">
+              <div class="suggestion_card_content">
+                <h3 class="card_title">
+                  <a href="https://developer.android.com/codelabs/jetpack-compose-basics?hl=zh-tw#0" class="card_link">Jetpack Compose 基本概念</a>
+                </h3>
+                <p class="card_text">Jetpack Compose 是為了簡化 UI 開發程序而設計的新型工具包。這類模型結合了回應式程式設計模型，既簡潔又易於使用 Kotlin 語言。</p>
+              </div>
+              <figure>
+                <img src="https://developers.google.com/static/devcenter/icons/icon-android.svg?hl=zh-tw" alt="Jetpack Compose" class="card_img" />
+              </figure>
+            </div>
+            <div class="card suggestion_card">
+              <div class="suggestion_card_content">
+                <h3 class="card_title">
+                  <a href="https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data?hl=zh-tw" class="card_link">在網頁中加入結構化資料</a>
+                </h3>
+                <p class="card_text">Google 搜尋一直致力於瞭解網頁內容。使用結構化資料提供關於網頁內容的明確線索。</p>
+              </div>
+              <figure>
+                <img src="https://developers.google.com/static/devcenter/icons/icon-codelabs.svg?hl=zh-tw" alt="web" class="card_img" />
+              </figure>
+            </div>
+          </div>
+        </section>
+
+        <section class="start container">
+          <h2 class="start_title">立即開始建構</h2>
+          <div class="start_content">
+            <a href="https://developer.android.com?hl=zh-tw" class="start_link card">
+              <div class="start_item">
+                <figure>
+                  <img src="https://developers.google.com/static/site-assets/images/products/android-logo.png?hl=zh-tw" alt="Android Logo" class="start_img" />
+                </figure>
+                <p class="start_itemTitle"><strong>Android</strong></p>
+                <p class="start_itemText">提供各種現代化工具，協助您在各種 Android 裝置上打造符合使用者需求的體驗。</p>
+              </div>
+            </a>
+            <a href="https://console.cloud.google.com/products/solutions/catalog?hl=zh-tw&project=erudite-harbor-332116" class="start_link card">
+              <div class="start_item">
+                <figure>
+                  <img src="https://www.gstatic.com/images/branding/product/2x/google_cloud_64dp.png" alt="Google Cloud Logo" class="start_img" />
+                </figure>
+                <p class="start_itemTitle"><strong>Google Cloud</strong></p>
+                <p class="start_itemText">新客戶可獲得價值 $300 美元的免費抵免額，用於部署動態網站、啟動 VM 和建構三層式網頁應用程式等。</p>
+              </div>
+            </a>
+            <a href="https://aistudio.google.com/app/prompts/new_chat?utm_source=gfd&utm_medium=referral&utm_campaign=home_garden&hl=zh-tw" class="start_link card">
+              <div class="start_item">
+                <figure>
+                  <img src="https://developers.google.com/static/focus/images/ai-studio-icon.png?hl=zh-tw" alt="Google AI Studio Logo" class="start_img" />
+                </figure>
+                <p class="start_itemTitle"><strong>Google AI Studio</strong></p>
+                <p class="start_itemText">在 Google AI Studio 中使用 Gemini 快速建構生成式 AI 應用程式。</p>
+              </div>
+            </a>
+            <a href="https://developer.chrome.com/?hl=zh-tw" class="start_link card">
+              <div class="start_item">
+                <figure>
+                  <img src="https://developers.google.com/static/homepage-assets/images/chromeos-logo.svg?hl=zh-tw" alt="Chrome Logo" class="start_img" />
+                </figure>
+
+                <p class="start_itemTitle"><strong>Chrome</strong></p>
+                <p class="start_itemText">可協助您打造優質網路體驗的現代化工具和功能。</p>
+              </div>
+            </a>
+            <a href="https://developer.android.com/distribute?hl=zh-tw" class="start_link card">
+              <div class="start_item">
+                <figure>
+                  <img src="https://www.gstatic.com/images/branding/product/2x/play_prism_64dp.png" alt="Google Play Logo" class="start_img" />
+                </figure>
+                <p class="start_itemTitle"><strong>Google Play</strong></p>
+                <p class="start_itemText">拓展事業、提升應用程式品質、與目標對象互動並賺取收益。</p>
+              </div>
+            </a>
+            <a href="https://firebase.google.com/" class="start_link card">
+              <div class="start_item">
+                <figure>
+                  <img src="https://www.gstatic.com/devrel-devsite/prod/v7b55e5943f9ab80a0423ff6653c19f56a0e5266641f85a6a76aee662b0157d18/firebase/images/icon.svg" alt="Firebase Logo" class="start_img" />
+                </figure>
+                <p class="start_itemTitle"><strong>Firebase</strong></p>
+                <p class="start_itemText">這個應用程式開發平台可協助您建構及拓展使用者喜愛的應用程式和遊戲。</p>
+              </div>
+            </a>
+            <a href="https://keras.io/" class="start_link card">
+              <div class="start_item">
+                <figure>
+                  <img src="https://developers.google.com/static/focus/images/keras.png?hl=zh-tw" alt="Keras Logo" class="start_img" />
+                </figure>
+                <p class="start_itemTitle"><strong>Keras</strong></p>
+                <p class="start_itemText">在 TensorFlow、JAX 和 PyTorch 上享有流暢的深度學習體驗。</p>
+              </div>
+            </a>
+            <a href="https://www.tensorflow.org/?hl=zh-tw" class="start_link card">
+              <div class="start_item">
+                <figure>
+                  <img src="https://developers.google.com/static/site-assets/images/products/tensorflow-logo-196.png?hl=zh-tw" alt="TensorFlow Logo" class="start_img" />
+                </figure>
+
+                <p class="start_itemTitle"><strong>TensorFlow</strong></p>
+                <p class="start_itemText">端對端平台，可讓您輕鬆在任何環境中建構及部署機器學習模型。</p>
+              </div>
+            </a>
+            <a href="https://flutter.dev/" class="start_link card">
+              <div class="start_item">
+                <figure>
+                  <img src="https://www.gstatic.com/images/branding/product/2x/flutter_64dp.png" alt="Flutter Logo" class="start_img" />
+                </figure>
+                <p class="start_itemTitle"><strong>Flutter</strong></p>
+                <p class="start_itemText">透過單一程式碼集，建構、測試及部署美觀的網頁、行動裝置、電腦和嵌入式應用程式。</p>
+              </div>
+            </a>
+            <a href="https://ads.google.com/intl/zh_TW/home/?hl=zh-tw&pli=1" class="start_link card">
+              <div class="start_item">
+                <figure>
+                  <img src="https://developers.google.com/static/homepage-assets/images/google-ads.svg?hl=zh-tw" alt="Google Ads Logo" class="start_img" />
+                </figure>
+                <p class="start_itemTitle"><strong>Google Ads</strong></p>
+                <p class="start_itemText">透過 Google Ads 向合適的使用者宣傳網站、產品和應用程式。</p>
+              </div>
+            </a>
+            <a href="https://www.kaggle.com/" class="start_link card">
+              <div class="start_item">
+                <figure>
+                  <img src="https://developers.google.com/static/focus/images/kaggle.svg?hl=zh-tw" alt="Kaggle Logo" class="start_img" />
+                </figure>
+                <p class="start_itemTitle"><strong>Kaggle</strong></p>
+                <p class="start_itemText">可分享機器學習資料集、探索及建構模型，而且可以參加比賽的平台。</p>
+              </div>
+            </a>
+            <a href="https://angular.dev/" class="start_link card">
+              <div class="start_item">
+                <figure>
+                  <img src="https://developers.google.com/static/homepage-assets/images/angular_gradient.png?hl=zh-tw" alt="Angular Logo" class="start_img" />
+                </figure>
+
+                <p class="start_itemTitle"><strong>Angular</strong></p>
+                <p class="start_itemText">用於打造未來的網站開發架構。</p>
+              </div>
+            </a>
+          </div>
+          <a href="https://developers.google.com/products?hl=zh-tw" class="btn btn-start">查看所有開發人員產品</a>
+        </section>
+
+        <section class="develop container">
+          <h2 class="develop_title">您想要為什麼項目開發內容？</h2>
+          <p class="develop_subtitle">選取您的開發重點，以尋找實用的解決方案和資源</p>
+          <div class="develop_content">
+            <div class="card develop_card">
+              <div class="develop_cardText">
+                <h3 class="develop_cardTitle">
+                  <a href="https://developers.google.com/focus/mobile-app-development?hl=zh-tw" class="develop_cardLink">手機號碼</a>
+                </h3>
+                <p>針對各種目標對象和板型規格進行開發。</p>
+                <a href="https://developers.google.com/focus/mobile-app-development?hl=zh-tw" class="btn btn-develop">開始使用</a>
+              </div>
+              <a href="https://developers.google.com/focus/mobile-app-development?hl=zh-tw" class="develop_imgLink"><img src="https://developers.google.com/homepage-assets/images/ecosystem-mobile.svg" alt="" class="develop_img develop_img-phone" /></a>
+            </div>
+            <div class="card develop_card">
+              <div class="develop_cardText">
+                <h3 class="develop_cardTitle">
+                  <a href="https://developers.google.com/focus/web-development?hl=zh-tw" class="develop_cardLink">Web</a>
+                </h3>
+                <p>建立快速、安全的開放網路網站和應用程式。</p>
+                <a href="" class="btn btn-develop">開始使用</a>
+              </div>
+              <a href="https://developers.google.com/focus/web-development?hl=zh-tw" class="develop_imgLink"><img src="https://developers.google.com/homepage-assets/images/ecosystem-web.svg" alt="" class="develop_img develop_img-web" /></a>
+            </div>
+            <div class="card develop_card">
+              <div class="develop_cardText">
+                <h3 class="develop_cardTitle">
+                  <a href="https://developers.google.com/focus/ai-development?hl=zh-tw" class="develop_cardLink">AI</a>
+                </h3>
+                <p>運用先進的 AI 模型和適用於機器學習的開放原始碼工具。</p>
+                <a href="https://developers.google.com/focus/ai-development?hl=zh-tw" class="btn btn-develop">開始使用</a>
+              </div>
+              <a href="https://developers.google.com/focus/ai-development?hl=zh-tw" class="develop_imgLink"><img src="https://developers.google.com/homepage-assets/images/ecosystem-ai.svg" class="develop_img develop_img-ai" /></a>
+            </div>
+            <div class="card develop_card">
+              <div class="develop_cardText">
+                <h3 class="develop_cardTitle">
+                  <a href="https://developers.google.com/focus/cloud-development?hl=zh-tw" class="develop_cardLink">Cloud</a>
+                </h3>
+                <p>簡化端對端開發作業及調度資源。</p>
+                <a href="https://developers.google.com/focus/cloud-development?hl=zh-tw" class="btn btn-develop">開始使用</a>
+              </div>
+              <a href="https://developers.google.com/focus/cloud-development?hl=zh-tw" class="develop_imgLink"><img src="https://developers.google.com/homepage-assets/images/ecosystem-cloud.svg" alt="" class="develop_img develop_img-cloud" /></a>
+            </div>
+          </div>
+        </section>
+
+        <section class="news container">
+          <h2 class="news_title">熱門新聞</h2>
+          <div class="news_content">
+            <div class="news_card card">
+              <a href="https://developers.googleblog.com/en/new-features-for-the-gemini-api-and-google-ai-studio/?utm_source=website&utm_medium=referral&utm_campaign=gfd-news&utm_content=gemini-api" class="news_imgLink">
+                <img src="https://developers.google.com/static/homepage-assets/images/gemini_480.jpg?hl=zh-tw" alt="New in Gemini API and Google AI Studio" class="news_img" />
+              </a>
+              <div class="news_cardInfo">
+                <h3 class="news_cardtitle">
+                  <a href="https://developers.googleblog.com/en/new-features-for-the-gemini-api-and-google-ai-studio/?utm_source=website&utm_medium=referral&utm_campaign=gfd-news&utm_content=gemini-api" class="news_cardTitleLink">Gemini 1.5 Pro 200 萬個脈絡窗口、內容快取，以及執行程式碼</a>
+                </h3>
+                <p>所有開發人員都能使用 Gemini 1.5 Pro 適用的 200 萬個脈絡窗口、Gemini API 中的程式碼執行功能，以及在 Google AI Studio 中加入 Gemma 2。</p>
+                <div class="btnBox">
+                  <a href="https://developers.googleblog.com/en/new-features-for-the-gemini-api-and-google-ai-studio/?utm_source=website&utm_medium=referral&utm_campaign=gfd-news&utm_content=gemini-api" class="btn btn-news">瞭解詳情</a>
+                </div>
+              </div>
+            </div>
+            <div class="news_card card">
+              <a href="https://crossword.withgoogle.com/" class="news_imgLink">
+                <img src="https://developers.google.com/static/site-assets/images/news/io-crossword_480.png?hl=zh-tw" alt="I-O Vrossword" class="news_img" />
+              </a>
+              <div class="news_cardInfo">
+                <h3 class="news_cardtitle">
+                  <a href="https://crossword.withgoogle.com/" class="news_cardTitleLink">暢玩填字遊戲</a>
+                </h3>
+                <p>查看使用 Gemini API 建構的經典填字遊戲，瞭解在 I/O 大會上公布的所有消息。</p>
+                <div class="btnBox">
+                  <a href="https://crossword.withgoogle.com/" class="btn btn-news">立即播放</a>
+                </div>
+              </div>
+            </div>
+            <div class="news_card card">
+              <a href="https://idx.dev/blog/article/start-building-with-project-idx-today" class="news_imgLink">
+                <img src="https://developers.google.com/static/focus/images/project-idx-beta_480.png?hl=zh-tw" alt="Project IDX" class="news_img" />
+              </a>
+              <div class="news_cardInfo">
+                <h3 class="news_cardtitle">
+                  <a href="https://idx.dev/blog/article/start-building-with-project-idx-today" class="news_cardTitleLink">立即開始使用 Project IDX 建構內容</a>
+                </h3>
+                <p>針對完整堆疊、多平台和 AI 技術輔助應用程式，體驗精簡的開發環境。現已開放所有人使用，未加入等候名單。</p>
+                <div class="btnBox">
+                  <a href="https://idx.dev/blog/article/start-building-with-project-idx-today" class="btn btn-news">瞭解詳情</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="newfun container">
+          <figure>
+            <img src="https://developers.google.com/static/focus/images/android-studio-jellyfish_720.png?hl=zh-tw" alt="Android Studio Jellyfish" class="newfun_img" />
+          </figure>
+          <div class="newfun_text">
+            <small>ANDROID 新功能</small>
+            <h2 class="newfun_title"><a href="https://developer.android.com/studio?hl=zh-tw" class="newfun_titleLink">Android Studio Jellyfish 現已穩定</a></h2>
+            <p>Android Studio Jellyfish 來了！深入瞭解 Android Studio 中的 Gemini 等先進 AI 功能，以及順暢的 Android 裝置串流等服務。</p>
+            <a href="https://developer.android.com/studio?hl=zh-tw" class="btn btn-newfun">立即下載</a>
+          </div>
+        </section>
+        <!---->
+        <section class="activity container">
+          <div class="activity_content">
+            <div class="card activity_card">
+              <a href="https://developers.google.com/events?hl=zh-tw" class="activity_link"><img src="https://developers.google.com/static/homepage-assets/images/find-event_480.png?hl=zh-tw" alt="event" class="activity_img" /> </a>
+              <div class="activity_info">
+                <h3 class="activity_title">尋找活動</h3>
+                <p class="activity_text">參加線上及現場開發人員活動，增進相關知識。</p>
+                <div class="btnBox">
+                  <a href="https://developers.google.com/events?hl=zh-tw" class="btn btn-activity">查看事件</a>
+                </div>
+              </div>
+            </div>
+            <div class="card activity_card">
+              <a href="https://developers.google.com/learn?hl=zh-tw" class="activity_link"><img src="https://developers.google.com/static/homepage-assets/images/improve-tech-skills_480.png?hl=zh-tw" alt="learning" class="activity_img" /></a>
+              <div class="activity_info">
+                <h3 class="activity_title">提陞技術技能</h3>
+                <p class="activity_text">掌握 Google 技術的最新消息，精進技能並掌握新技能。</p>
+                <div class="btnBox"><a href="https://developers.google.com/learn?hl=zh-tw" class="btn btn-activity">查看事件</a></div>
+              </div>
+            </div>
+            <div class="card activity_card">
+              <a href="https://developers.google.com/community?hl=zh-tw" class="activity_link"><img src="https://developers.google.com/static/homepage-assets/images/join-a-community_480.png?hl=zh-tw" alt="chat" class="activity_img" /></a>
+              <div class="activity_info">
+                <h3 class="activity_title">加入社群</h3>
+                <p class="activity_text">無論您處於開發階段的哪個階段，都能使用多元化的網路環境。</p>
+                <div class="btnBox"><a href="https://developers.google.com/community?hl=zh-tw" class="btn btn-activity">查看事件</a></div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="follow container">
+          <h3 class="follow_title">追蹤 Google for Developers</h3>
+          <div class="follow_content">
+            <div class="card follow_card">
+              <img src="https://developers.google.com/homepage-assets/images/yt.svg" alt="YouTube Logo" class="follow_logo" />
+              <div class="follow_info">
+                <h3 class="follow_app">YouTube</h3>
+                <p class="follow_text">歡迎訂閱創意開發人員社群，學習 Google 技術的最新資訊。</p>
+                <div class="btnBox">
+                  <a href="https://www.youtube.com/user/GoogleDevelopers" class="btn btn-follow">瞭解詳情 </a>
+                </div>
+              </div>
+            </div>
+            <div class="card follow_card">
+              <img src="	https://developers.google.com/static/homepage-assets/images/ig.webp?hl=zh-tw" alt="Instagram Logo" class="follow_logo" />
+              <div class="follow_info">
+                <h3 class="follow_app">Instagram</h3>
+                <p class="follow_text">追蹤及探索開發人員資源、社群活動和啟發性故事。</p>
+                <div class="btnBox"><a href="https://www.instagram.com/googlefordevs/" class="btn btn-follow">瞭解詳情 </a></div>
+              </div>
+            </div>
+            <div class="card follow_card">
+              <img src="https://developers.google.com/static/homepage-assets/images/li_72.png?hl=zh-tw" alt="LinkedIn Logo" class="follow_logo linkedIn" />
+              <div class="follow_info">
+                <h3 class="follow_app">LinkedIn</h3>
+                <p class="follow_text">加入創意開發人員社群，瞭解如何採用最新科技產品。</p>
+                <div class="btnBox"><a href="https://www.linkedin.com/showcase/googledevelopers/" class="btn btn-follow">瞭解詳情 </a></div>
+              </div>
+            </div>
+            <div class="card follow_card">
+              <img src="https://developers.google.com/static/homepage-assets/images/x.svg?hl=zh-tw" alt="X Logo" class="follow_logo x" />
+              <div class="follow_info">
+                <h3 class="follow_app">X</h3>
+                <p class="follow_text">加入對話，探索最新的開發人員工具、資源、活動和公告事項。</p>
+                <div class="btnBox"><a href="https://twitter.com/x/migrate?tok=7b2265223a222f676f6f676c6564657673222c2274223a313732303135313136327dfe37eb1facd02933c4b493f5e4c39acc" class="btn btn-follow">瞭解詳情 </a></div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <div class="hr"></div>
+      <footer class="footer container">
+        <nav>
+          <ul class="footer_nav">
+            <li class="footer_navItem">
+              <h4 class="footer_navTitle">Connect</h4>
+              <ul>
+                <li><a href="https://developers.googleblog.com/zh-hans/" class="footer_link">網誌</a></li>
+                <li><a href="https://www.instagram.com/googlefordevs/" class="footer_link">Instagram</a></li>
+                <li><a href="https://www.linkedin.com/showcase/googledevelopers/" class="footer_link">LinkedIn</a></li>
+                <li><a href="https://twitter.com/googledevs" class="footer_link">X (Twitter)</a></li>
+                <li><a href="https://www.youtube.com/user/GoogleDevelopers" class="footer_link">YouTube</a></li>
+              </ul>
+            </li>
+            <li class="footer_navItem">
+              <h4 class="footer_navTitle">Programs</h4>
+              <ul>
+                <li><a href="https://www.womentechmakers.com/" class="footer_link">Women Techmakers</a></li>
+                <li><a href="https://developers.google.com/community/gdg" class="footer_link">Google Developer Groups</a></li>
+                <li><a href="https://developers.google.com/community/experts" class="footer_link">Google Developer Experts</a></li>
+                <li><a href="https://developers.google.com/community/accelerators" class="footer_link">Accelerators</a></li>
+                <li><a href="https://developers.google.com/community/gdsc" class="footer_link">Google Developer Student Clubs</a></li>
+              </ul>
+            </li>
+            <li class="footer_navItem">
+              <h4 class="footer_navTitle">Developer consoles</h4>
+              <ul>
+                <li><a href="https://console.developers.google.com/" class="footer_link">Google API Console</a></li>
+                <li><a href="https://console.cloud.google.com/" class="footer_link">Google Cloud Platform Console</a></li>
+                <li><a href="https://play.google.com/apps/publish" class="footer_link">Google Play 管理中心</a></li>
+                <li><a href="https://console.firebase.google.com/" class="footer_link">Firebase Console</a></li>
+                <li><a href="https://console.actions.google.com/" class="footer_link">Actions on Google Console</a></li>
+                <li><a href="https://cast.google.com/publish" class="footer_link">Cast SDK Developer Console</a></li>
+                <li><a href="https://chrome.google.com/webstore/developer/dashboard" class="footer_link">Chrome Web Store Dashboard</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+        <div class="hr"></div>
+        <nav class="footer_product">
+          <a href="https://developers.google.com/?hl=zh-tw" class="footer_logoLink"><img src="https://www.gstatic.com/devrel-devsite/prod/vc5df62aff689c916c31b2ac1e49a7e8c5ecada1bb13dcdd68aaefb1e1e9b9ec0/developers/images/lockup-google-for-developers.svg" alt="Google for Developers" /> </a>
+
+          <ul class="footer_productList">
+            <li><a href="https://developer.android.com/?hl=zh-tw">Android</a></li>
+            <li><a href="https://developer.chrome.com/home?hl=zh-tw">Chrome</a></li>
+            <li><a href="https://firebase.google.com/?hl=zh-tw">Firebase</a></li>
+            <li><a href="https://cloud.google.com/?hl=zh-tw">Google Cloud Platform</a></li>
+            <li><a href="https://developers.google.com/products?hl=zh-tw">All products</a></li>
+          </ul>
+        </nav>
+        <div class="hr"></div>
+        <nav class="footer_set">
+          <div class="footer_privaicy">
+            <a href="https://developers.google.com/terms/site-terms?hl=zh-tw">條款</a>
+            <div class="line"></div>
+            <a href="https://policies.google.com/privacy?hl=zh-tw">隱私權</a>
+          </div>
+          <div class="footer_Subscribe">
+            <p>Sign up for the Google for Developers newsletter</p>
+            <a href="https://developers.google.com/newsletter/subscribe?hl=zh-tw" class="btn btn-footer">Subscribe</a>
+          </div>
+          <div class="langue">
+            <button class="langue_select">
+              <span class="material-symbols-outlined"> language </span>
+              中文 - 繁體
+              <span class="material-symbols-outlined down"> arrow_drop_down </span>
+            </button>
+            <ul class="langue_opt">
+              <li><a href="https://developers.google.com/">English</a></li>
+              <li><a href="https://developers.google.com/?hl=de">Deutsch</a></li>
+              <li><a href="https://developers.google.com/?hl=es">Español</a></li>
+              <li><a href="https://developers.google.com/?hl=es-419">Español – América Latina</a></li>
+              <li><a href="https://developers.google.com/?hl=fr">Français</a></li>
+              <li><a href="https://developers.google.com/?hl=id">Indonesia</a></li>
+              <li><a href="https://developers.google.com/?hl=it">Italiano</a></li>
+              <li><a href="https://developers.google.com/?hl=pl">Polski</a></li>
+              <li><a href="https://developers.google.com/?hl=pt-br">Português – Brasil</a></li>
+              <li><a href="https://developers.google.com/?hl=vi">Tiếng Việt</a></li>
+              <li><a href="https://developers.google.com/?hl=tr">Türkçe</a></li>
+              <li><a href="https://developers.google.com/?hl=ru">Русский</a></li>
+              <li><a href="https://developers.google.com/?hl=he">עברית</a></li>
+              <li><a href="https://developers.google.com/?hl=ar">العربيّة</a></li>
+              <li><a href="https://developers.google.com/?hl=fa">فارسی</a></li>
+              <li><a href="https://developers.google.com/?hl=hi">हिंदी</a></li>
+              <li><a href="https://developers.google.com/?hl=bn">বাংলা</a></li>
+              <li><a href="https://developers.google.com/?hl=th">ภาษาไทย</a></li>
+              <li><a href="https://developers.google.com/?hl=zh-cn">中文 – 简体</a></li>
+              <li><a href="https://developers.google.com/?hl=zh-tw">中文 – 繁體</a></li>
+              <li><a href="https://developers.google.com/?hl=ja">日本語</a></li>
+              <li><a href="https://developers.google.com/?hl=ko">한국어</a></li>
+            </ul>
+          </div>
+        </nav>
+      </footer>
+    </div>
+  </body>
 </html>
